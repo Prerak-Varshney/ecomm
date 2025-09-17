@@ -31,3 +31,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  display: block;
+  width: 2px;
+}
+.scrollbar-thin {
+  scrollbar-width: block;
+  width: 2px;
+}
+.scrollbar-thin {
+  -ms-overflow-style: block;
+  width: 2px;
+}

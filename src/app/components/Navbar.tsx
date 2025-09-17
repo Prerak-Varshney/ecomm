@@ -9,10 +9,8 @@ const Navbar = () => {
     return (
         <nav className={`w-full h-14 border-b-3 border-[var(--secondary-background)] flex items-center justify-between px-4 font-poppins`}>
             <div className={`w-45 h-10 flex items-center justify-start gap-2`}>
-                <div className={`w-11.25 h-full`}>
-                    <div className={`w-full h-full rounded-lg bg-[var(--blue)] flex items-center justify-center`}>
-                        <span className="text-white">V</span>
-                    </div>
+                <div className={`w-11.25 h-full rounded-lg bg-[var(--blue)] flex items-center justify-center`}>
+                    <span className="text-white">V</span>
                 </div>
                 <h1 className={`w-31 h-8.25 text-2xl font-bold`}>E-Comm</h1>
             </div>
